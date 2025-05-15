@@ -1,0 +1,3 @@
+# Problem 5
+
+Investigate the given case from $1$ to $10$. $2520 = 3 \cdot 4 \cdot 5 \cdot 6 \cdot 7$ which when broken up becomes 3  $\cdot$ 2 $\cdot$ 2 $\cdot$ 5 $\cdot$ 2 $\cdot$ 3 $\cdot$ 7 which this list of prime numbers can make up any number with 10. So for 1 to 20, add numbers that can’t be made by the given list by multiplying numbers in the list to the present list, which are numbers from 10 to 20 needed for the final number to also be divisible by every number between 10 to 20. Final list: 3,4,5,6,7,11,13,17,2,19 = 232792560. Notice the 2 is added for the list to make 16, either 4 $\cdot$ 4 or 2 $\cdot$ 8 is needed so 4 twos are needed in the list. 
