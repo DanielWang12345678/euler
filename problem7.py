@@ -1,9 +1,12 @@
 import math
 def prime_checker(n):
-  for i in range(2,math.isqrt(n)+1):
-    if n%i == 0:
-      return False 
-  return True
+  if n <= 1:
+    return False
+  else:
+    for i in range(2,math.isqrt(n)+1):
+      if n%i == 0:
+        return False 
+    return True
 print(prime_checker(2))
 def prime_finder(c):
   list1 = []
